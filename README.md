@@ -12,3 +12,12 @@ Ce projet illustre la mise en place d'une architecture de sécurité multicouche
 ## 🛠️ Validation
 - ✅ Scan Nmap détecté et banni après 5 tentatives.
 - ✅ Tentatives SSH non-autorisées bannies définitivement.
+### 📜 Journal des commandes de sécurisation
+
+**Pare-feu UFW :**
+- `sudo ufw default deny incoming`
+- `sudo ufw allow 45678/tcp`
+
+**Fail2ban :**
+- `sudo fail2ban-client status sshd`
+- `sudo fail2ban-client status ufw-scan`
