@@ -34,13 +34,16 @@ if status:
     if "sshd" in status and "ufw-scan" in status:
         print("[OK] Toutes les prisons (jails) sont actives.")
 
-# 4. Vérification de la présence de Lynis (Audit externe)
+# 4. Vérification de Lynis et affichage du score
 if os.path.exists("/usr/bin/lynis"):
     print("[OK] L'outil d'audit certifié Lynis est installé.")
-# On peut même essayer de lire le dernier score si le rapport existe
-    if os.path.exists("/var/log/lynis-report.dat"):
-        print("[OK] Un rapport d'audit Lynis a été généré.")
+    try:
+        # On va chercher la ligne hardening_index dans le rapport
+        score = subprocess.check_output("sudo grep 'hardening_index' /var/log/lynis-report.dat | cut -d'=' -f2", shell=True).decode().strip()
+        print(f"[OK] Votre score de Hardening actuel est de : {score}/100")
+    except:
+        print("[!] Rapport Lynis introuvable. Lancez 'sudo lynis audit system'.")
 else:
-    print("[!] Suggestion : Installez Lynis pour un audit approfondi.")
+    print("[!] Suggestion : Installez Lynis.")
 
 print("\n=== FIN DE L'AUDIT ===")

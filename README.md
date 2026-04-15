@@ -14,10 +14,17 @@ Ce projet illustre la mise en place d'une architecture de sécurité multicouche
 - ✅ Tentatives SSH non-autorisées bannies définitivement.
 ### 📜 Journal des commandes de sécurisation
 
-**Pare-feu UFW :**
-- `sudo ufw default deny incoming`
-- `sudo ufw allow 45678/tcp`
+## 📁 Structure du Projet
 
-**Fail2ban :**
-- `sudo fail2ban-client status sshd`
-- `sudo fail2ban-client status ufw-scan`
+- **[configs/](./configs)** : Fichiers de configuration de référence (Fail2ban, UFW).
+- **[scripts/](./scripts)** : Scripts Bash d'automatisation de l'installation.
+- **[tools/](./tools)** : Outils Python pour l'audit et l'analyse de sécurité.
+- **README.md** : Documentation et rapport de projet.
+
+## 🚀 Utilisation des outils
+
+Pour lancer l'audit de conformité :
+`sudo python3 tools/audit_config.py`
+
+Pour lancer l'analyseur de logs :
+`sudo python3 tools/security_analyzer.py`
