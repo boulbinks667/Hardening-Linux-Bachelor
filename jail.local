@@ -1,0 +1,14 @@
+[sshd]
+enabled =true
+port = 45678
+mode = aggressive
+logpath = %(sshd_log)s
+maxretry = 3 
+bantime = 10
+[ufw-scan]
+enabled = true
+filter = ufw-scan
+logpath = /var/log/syslog
+banaction = iptables-allports
+maxretry = 15
+bantime = 20
