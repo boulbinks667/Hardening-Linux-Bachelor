@@ -1,0 +1,1794 @@
+
+[0;33m[+] Linux Kernel Information[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+Linux mehdi-VMware-Virtual-Platform 6.17.0-20-generic #20~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Mar 19 01:28:37 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] Linux Distribution Information[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+PRETTY_NAME="Ubuntu 24.04.4 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.4 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] mehdi-VMware-Virtual-Platform Uptime Information
+[0;33m ++++++++++++++++++++++++++ [0m
+ 10:36:03 up 7 min,  2 users,  load average: 0,07, 0,09, 0,07
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] Check Available Space[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+Sys. de fichiers Taille Utilisé Dispo Uti% Monté sur
+tmpfs              790M    2,2M  788M   1% /run
+/dev/sda2           43G     11G   30G  28% /
+tmpfs              3,9G       0  3,9G   0% /dev/shm
+tmpfs              5,0M    8,0K  5,0M   1% /run/lock
+tmpfs              790M    116K  790M   1% /run/user/1000
+/dev/sr0           6,2G    6,2G     0 100% /media/mehdi/Ubuntu 24.04.4 LTS amd64
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] Check Memory[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+               total       utilisé      libre     partagé tamp/cache   disponible
+Mem:           7,7Gi       1,2Gi       5,0Gi        22Mi       1,8Gi       6,5Gi
+Échange:       3,8Gi          0B       3,8Gi
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] History (Commands)[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] List All Packages Installed[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+Check your directory for the file: LinuxAudit_Check15_Packages_Installed.txt
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] Check your Source List File[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+# Ubuntu sources have moved to /etc/apt/sources.list.d/ubuntu.sources
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] Check for Broken Dependencies[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] MOTD Banner Message[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+cat: /etc/motd: Aucun fichier ou dossier de ce nom
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] Kernel Messages[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+[    9.938550]  ? drm_vma_node_revoke+0x73/0x90
+[    9.938553]  ? kfree+0x2c5/0x360
+[    9.938556]  ttm_bo_put+0x3c/0x70 [ttm]
+[    9.938559]  vmw_gem_object_free+0x13/0x30 [vmwgfx]
+[    9.938572]  drm_gem_object_handle_put_unlocked+0x129/0x140
+[    9.938576]  drm_gem_object_release_handle+0x5b/0xc0
+[    9.938577]  ? __pfx_drm_gem_object_release_handle+0x10/0x10
+[    9.938578]  idr_for_each+0x70/0xf0
+[    9.938581]  drm_gem_release+0x20/0x40
+[    9.938582]  drm_file_free+0x1e9/0x290
+[    9.938583]  drm_release+0xb3/0x140
+[    9.938585]  __fput+0xea/0x2d0
+[    9.938587]  ____fput+0x15/0x20
+[    9.938588]  task_work_run+0x5d/0xa0
+[    9.938592]  do_exit+0x1fa/0x480
+[    9.938595]  do_group_exit+0x34/0x90
+[    9.938597]  get_signal+0x832/0x840
+[    9.938600]  arch_do_signal_or_restart+0x41/0x200
+[    9.938604]  exit_to_user_mode_loop+0x91/0x170
+[    9.938606]  do_syscall_64+0x198/0xa40
+[    9.938608]  ? do_futex+0x18e/0x260
+[    9.938610]  ? __x64_sys_futex+0x129/0x200
+[    9.938611]  ? __audit_syscall_exit+0xbb/0x100
+[    9.938614]  ? syscall_exit_work+0x12c/0x160
+[    9.938615]  ? arch_exit_to_user_mode_prepare.isra.0+0xd/0xe0
+[    9.938618]  ? do_syscall_64+0xb6/0xa40
+[    9.938620]  ? do_futex+0x18e/0x260
+[    9.938621]  ? __x64_sys_futex+0x129/0x200
+[    9.938622]  ? __audit_syscall_exit+0xbb/0x100
+[    9.938624]  ? syscall_exit_work+0x12c/0x160
+[    9.938626]  ? arch_exit_to_user_mode_prepare.isra.0+0xd/0xe0
+[    9.938627]  ? clear_bhb_loop+0x30/0x80
+[    9.938629]  ? clear_bhb_loop+0x30/0x80
+[    9.938630]  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+[    9.938631] RIP: 0033:0x7aa50e61d28d
+[    9.938633] Code: Unable to access opcode bytes at 0x7aa50e61d263.
+[    9.938633] RSP: 002b:00007aa50d294dc8 EFLAGS: 00000246 ORIG_RAX: 00000000000000ca
+[    9.938635] RAX: fffffffffffffe00 RBX: 00006041b35f5030 RCX: 00007aa50e61d28d
+[    9.938635] RDX: 0000000000000005 RSI: 0000000000000080 RDI: 00006041b35f5040
+[    9.938636] RBP: 00007aa50d294e00 R08: 0000000000000007 R09: 00006041b35ff9d0
+[    9.938636] R10: 0000000000000000 R11: 0000000000000246 R12: 00007aa50d295648
+[    9.938637] R13: 0000000000000005 R14: 00006041b35f5040 R15: 0000000000000002
+[    9.938639]  </TASK>
+[    9.938640] ---[ end trace 0000000000000000 ]---
+[   16.776554] systemd-journald[376]: File /var/log/journal/6f3daef4672740b298649712fb1333ab/user-1000.journal corrupted or uncleanly shut down, renaming and replacing.
+[   17.113781] rfkill: input handler enabled
+[   18.818449] rfkill: input handler disabled
+[   19.161715] /dev/sr0: Can't open blockdev
+[   19.164700] ISO 9660 Extensions: Microsoft Joliet Level 3
+[   19.165779] ISO 9660 Extensions: RRIP_1991A
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] Check Upgradable Packages[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+En train de lister…
+gir1.2-nm-1.0/noble-updates 1.46.0-1ubuntu2.7 amd64 [pouvant être mis à jour depuis : 1.46.0-1ubuntu2.6]
+libinput-bin/noble-updates 1.25.0-1ubuntu3.4 amd64 [pouvant être mis à jour depuis : 1.25.0-1ubuntu3.3]
+libinput10/noble-updates 1.25.0-1ubuntu3.4 amd64 [pouvant être mis à jour depuis : 1.25.0-1ubuntu3.3]
+libnm0/noble-updates 1.46.0-1ubuntu2.7 amd64 [pouvant être mis à jour depuis : 1.46.0-1ubuntu2.6]
+network-manager-config-connectivity-ubuntu/noble-updates 1.46.0-1ubuntu2.7 all [pouvant être mis à jour depuis : 1.46.0-1ubuntu2.6]
+network-manager/noble-updates 1.46.0-1ubuntu2.7 amd64 [pouvant être mis à jour depuis : 1.46.0-1ubuntu2.6]
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+[0;33m[+] CPU/System Information[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 151
+model name	: 12th Gen Intel(R) Core(TM) i7-12650HX
+stepping	: 2
+microcode	: 0xffffffff
+cpu MHz		: 2303.998
+cache size	: 24576 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 32
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni arat umip gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize flush_l1d arch_capabilities
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs retbleed bhi spectre_v2_user its
+bogomips	: 4607.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 45 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 151
+model name	: 12th Gen Intel(R) Core(TM) i7-12650HX
+stepping	: 2
+microcode	: 0xffffffff
+cpu MHz		: 2303.998
+cache size	: 24576 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 4
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 32
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni arat umip gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize flush_l1d arch_capabilities
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs retbleed bhi spectre_v2_user its
+bogomips	: 4607.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 45 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 151
+model name	: 12th Gen Intel(R) Core(TM) i7-12650HX
+stepping	: 2
+microcode	: 0xffffffff
+cpu MHz		: 2303.998
+cache size	: 24576 KB
+physical id	: 0
+siblings	: 4
+core id		: 2
+cpu cores	: 4
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 32
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni arat umip gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize flush_l1d arch_capabilities
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs retbleed bhi spectre_v2_user its
+bogomips	: 4607.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 45 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 151
+model name	: 12th Gen Intel(R) Core(TM) i7-12650HX
+stepping	: 2
+microcode	: 0xffffffff
+cpu MHz		: 2303.998
+cache size	: 24576 KB
+physical id	: 0
+siblings	: 4
+core id		: 3
+cpu cores	: 4
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 32
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni arat umip gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize flush_l1d arch_capabilities
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs retbleed bhi spectre_v2_user its
+bogomips	: 4607.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 45 bits physical, 48 bits virtual
+power management:
+
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] TCP wrappers[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+# /etc/hosts.allow: list of hosts that are allowed to access the system.
+#                   See the manual pages hosts_access(5) and hosts_options(5).
+#
+# Example:    ALL: LOCAL @some_netgroup
+#             ALL: .foobar.edu EXCEPT terminalserver.foobar.edu
+#
+# If you're going to protect the portmapper use the name "rpcbind" for the
+# daemon name. See rpcbind(8) and rpc.mountd(8) for further information.
+#
+
+
+# /etc/hosts.deny: list of hosts that are _not_ allowed to access the system.
+#                  See the manual pages hosts_access(5) and hosts_options(5).
+#
+# Example:    ALL: some.host.name, .some.domain
+#             ALL EXCEPT in.fingerd: other.host.name, .other.domain
+#
+# If you're going to protect the portmapper use the name "rpcbind" for the
+# daemon name. See rpcbind(8) and rpc.mountd(8) for further information.
+#
+# The PARANOID wildcard matches any host whose name does not match its
+# address.
+#
+# You may wish to enable this to ensure any programs that don't
+# validate looked up hostnames still leave understandable logs. In past
+# versions of Debian this has been the default.
+# ALL: PARANOID
+
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] Cron jobs[0m
+
+[0;33m[+] Crontab User[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+no crontab for root
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] Crontab System wide[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+-rw-r--r-- 1 root root 1136 mars  31  2024 /etc/crontab
+
+/etc/cron.d:
+total 32
+drwxr-xr-x   2 root root  4096 févr. 10 01:29 .
+drwxr-xr-x 145 root root 12288 avril 15 15:32 ..
+-rw-r--r--   1 root root   219 nov.  17  2023 anacron
+-rw-r--r--   1 root root   201 avril  8  2024 e2scrub_all
+-rw-r--r--   1 root root   102 mars  31  2024 .placeholder
+-rw-r--r--   1 root root   396 janv.  9  2024 sysstat
+
+/etc/cron.daily:
+total 48
+drwxr-xr-x   2 root root  4096 févr. 10 01:29 .
+drwxr-xr-x 145 root root 12288 avril 15 15:32 ..
+-rwxr-xr-x   1 root root   311 sept. 25  2023 0anacron
+-rwxr-xr-x   1 root root   376 juil.  8  2025 apport
+-rwxr-xr-x   1 root root  1478 mars  22  2024 apt-compat
+-rwxr-xr-x   1 root root   123 févr.  5  2024 dpkg
+-rwxr-xr-x   1 root root   377 avril  8  2024 logrotate
+-rwxr-xr-x   1 root root  1395 mars  29  2024 man-db
+-rw-r--r--   1 root root   102 mars  31  2024 .placeholder
+-rwxr-xr-x   1 root root   518 janv.  9  2024 sysstat
+
+/etc/cron.hourly:
+total 20
+drwxr-xr-x   2 root root  4096 févr. 10 01:19 .
+drwxr-xr-x 145 root root 12288 avril 15 15:32 ..
+-rw-r--r--   1 root root   102 mars  31  2024 .placeholder
+
+/etc/cron.monthly:
+total 24
+drwxr-xr-x   2 root root  4096 févr. 10 01:28 .
+drwxr-xr-x 145 root root 12288 avril 15 15:32 ..
+-rwxr-xr-x   1 root root   313 sept. 25  2023 0anacron
+-rw-r--r--   1 root root   102 mars  31  2024 .placeholder
+
+/etc/cron.weekly:
+total 28
+drwxr-xr-x   2 root root  4096 févr. 10 01:29 .
+drwxr-xr-x 145 root root 12288 avril 15 15:32 ..
+-rwxr-xr-x   1 root root   312 sept. 25  2023 0anacron
+-rwxr-xr-x   1 root root  1055 mars  29  2024 man-db
+-rw-r--r--   1 root root   102 mars  31  2024 .placeholder
+
+/etc/cron.yearly:
+total 20
+drwxr-xr-x   2 root root  4096 févr. 10 01:19 .
+drwxr-xr-x 145 root root 12288 avril 15 15:32 ..
+-rw-r--r--   1 root root   102 mars  31  2024 .placeholder
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] Last reboots[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+reboot   system boot  6.17.0-20-generi Thu Apr 16 10:28   still running
+reboot   system boot  6.17.0-20-generi Wed Apr 15 12:45   still running
+reboot   system boot  6.17.0-20-generi Wed Apr 15 12:13   still running
+reboot   system boot  6.17.0-20-generi Wed Apr 15 11:40   still running
+reboot   system boot  6.17.0-20-generi Wed Apr 15 10:37   still running
+reboot   system boot  6.17.0-20-generi Tue Apr 14 14:35   still running
+reboot   system boot  6.17.0-20-generi Tue Apr 14 13:56   still running
+reboot   system boot  6.17.0-20-generi Tue Apr 14 12:03   still running
+reboot   system boot  6.17.0-20-generi Tue Apr 14 11:51   still running
+reboot   system boot  6.17.0-20-generi Tue Apr 14 11:49   still running
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] Current User and ID information[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+root
+
+uid=0(root) gid=0(root) groupes=0(root)
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] List Current Logged In Users[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+ 10:36:03 up 7 min,  2 users,  load average: 0,07, 0,09, 0,07
+UTIL.    TTY      DE               LOGIN@   IDLE   JCPU   PCPU  WHAT
+mehdi             192.168.163.1    10:29    7:07   0.00s  0.02s sshd: mehdi [priv]
+mehdi    tty2     -                10:29    7:11   0.02s  0.02s /usr/libexec/gnome-session-binary --session=ubuntu
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] List User Names[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+_apt
+nobody
+systemd-network
+systemd-timesync
+dhcpcd
+messagebus
+syslog
+systemd-resolve
+uuidd
+usbmux
+tss
+systemd-oom
+kernoops
+whoopsie
+dnsmasq
+avahi
+tcpdump
+sssd
+speech-dispatcher
+cups-pk-helper
+fwupd-refresh
+saned
+geoclue
+cups-browsed
+hplip
+gnome-remote-desktop
+polkitd
+rtkit
+colord
+gnome-initial-setup
+gdm
+nm-openvpn
+mehdi
+sshd
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] Shells used by users[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+root /bin/bash
+daemon /usr/sbin/nologin
+bin /usr/sbin/nologin
+sys /usr/sbin/nologin
+sync /bin/sync
+games /usr/sbin/nologin
+man /usr/sbin/nologin
+lp /usr/sbin/nologin
+mail /usr/sbin/nologin
+news /usr/sbin/nologin
+uucp /usr/sbin/nologin
+proxy /usr/sbin/nologin
+www-data /usr/sbin/nologin
+backup /usr/sbin/nologin
+list /usr/sbin/nologin
+irc /usr/sbin/nologin
+_apt /usr/sbin/nologin
+nobody /usr/sbin/nologin
+systemd-network /usr/sbin/nologin
+systemd-timesync /usr/sbin/nologin
+dhcpcd /bin/false
+messagebus /usr/sbin/nologin
+syslog /usr/sbin/nologin
+systemd-resolve /usr/sbin/nologin
+uuidd /usr/sbin/nologin
+usbmux /usr/sbin/nologin
+tss /bin/false
+systemd-oom /usr/sbin/nologin
+kernoops /usr/sbin/nologin
+whoopsie /bin/false
+dnsmasq /usr/sbin/nologin
+avahi /usr/sbin/nologin
+tcpdump /usr/sbin/nologin
+sssd /usr/sbin/nologin
+speech-dispatcher /bin/false
+cups-pk-helper /usr/sbin/nologin
+fwupd-refresh /usr/sbin/nologin
+saned /usr/sbin/nologin
+geoclue /usr/sbin/nologin
+cups-browsed /usr/sbin/nologin
+hplip /bin/false
+gnome-remote-desktop /usr/sbin/nologin
+polkitd /usr/sbin/nologin
+rtkit /usr/sbin/nologin
+colord /usr/sbin/nologin
+gnome-initial-setup /bin/false
+gdm /bin/false
+nm-openvpn /usr/sbin/nologin
+mehdi /bin/bash
+sshd /usr/sbin/nologin
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] Services run by Root[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.3  0.1  23484 14728 ?        Ss   10:28   0:01 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    10:28   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    10:28   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-rcu_gp]
+root           5  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-sync_wq]
+root           6  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-kvfree_rcu_reclaim]
+root           7  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-slub_flushwq]
+root           8  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-netns]
+root           9  0.0  0.0      0     0 ?        I    10:28   0:00 [kworker/0:0-events]
+root          10  0.0  0.0      0     0 ?        I    10:28   0:00 [kworker/0:1-events]
+root          11  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/0:0H-events_highpri]
+root          13  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-mm_percpu_wq]
+root          14  0.0  0.0      0     0 ?        S    10:28   0:00 [ksoftirqd/0]
+root          15  0.0  0.0      0     0 ?        I    10:28   0:00 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    10:28   0:00 [rcu_exp_par_gp_kthread_worker/1]
+root          17  0.0  0.0      0     0 ?        S    10:28   0:00 [rcu_exp_gp_kthread_worker]
+root          18  0.0  0.0      0     0 ?        S    10:28   0:00 [migration/0]
+root          19  0.0  0.0      0     0 ?        S    10:28   0:00 [idle_inject/0]
+root          20  0.0  0.0      0     0 ?        S    10:28   0:00 [cpuhp/0]
+root          21  0.0  0.0      0     0 ?        S    10:28   0:00 [cpuhp/1]
+root          22  0.0  0.0      0     0 ?        S    10:28   0:00 [idle_inject/1]
+root          23  0.1  0.0      0     0 ?        S    10:28   0:00 [migration/1]
+root          24  0.0  0.0      0     0 ?        S    10:28   0:00 [ksoftirqd/1]
+root          26  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/1:0H-kblockd]
+root          27  0.0  0.0      0     0 ?        S    10:28   0:00 [cpuhp/2]
+root          28  0.0  0.0      0     0 ?        S    10:28   0:00 [idle_inject/2]
+root          29  0.1  0.0      0     0 ?        S    10:28   0:00 [migration/2]
+root          30  0.0  0.0      0     0 ?        S    10:28   0:00 [ksoftirqd/2]
+root          32  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/2:0H-events_highpri]
+root          33  0.0  0.0      0     0 ?        S    10:28   0:00 [cpuhp/3]
+root          34  0.0  0.0      0     0 ?        S    10:28   0:00 [idle_inject/3]
+root          35  0.1  0.0      0     0 ?        S    10:28   0:00 [migration/3]
+root          36  0.0  0.0      0     0 ?        S    10:28   0:00 [ksoftirqd/3]
+root          37  0.0  0.0      0     0 ?        I    10:28   0:00 [kworker/3:0-cgroup_free]
+root          38  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/3:0H-events_highpri]
+root          39  0.0  0.0      0     0 ?        S    10:28   0:00 [kdevtmpfs]
+root          40  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-inet_frag_wq]
+root          41  0.0  0.0      0     0 ?        I    10:28   0:00 [rcu_tasks_kthread]
+root          42  0.0  0.0      0     0 ?        I    10:28   0:00 [rcu_tasks_rude_kthread]
+root          43  0.0  0.0      0     0 ?        I    10:28   0:00 [rcu_tasks_trace_kthread]
+root          44  0.0  0.0      0     0 ?        S    10:28   0:00 [kauditd]
+root          45  0.0  0.0      0     0 ?        S    10:28   0:00 [khungtaskd]
+root          47  0.0  0.0      0     0 ?        S    10:28   0:00 [oom_reaper]
+root          49  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-writeback]
+root          50  0.0  0.0      0     0 ?        S    10:28   0:00 [kcompactd0]
+root          51  0.0  0.0      0     0 ?        SN   10:28   0:00 [ksmd]
+root          52  0.0  0.0      0     0 ?        SN   10:28   0:00 [khugepaged]
+root          53  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-kblockd]
+root          54  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-blkcg_punt_bio]
+root          55  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-kintegrityd]
+root          56  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/9-acpi]
+root          57  0.0  0.0      0     0 ?        I    10:28   0:00 [kworker/3:1-mm_percpu_wq]
+root          58  0.0  0.0      0     0 ?        I    10:28   0:00 [kworker/2:1-mm_percpu_wq]
+root          59  0.0  0.0      0     0 ?        I    10:28   0:00 [kworker/1:1-events]
+root          60  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-tpm_dev_wq]
+root          61  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-ata_sff]
+root          62  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-md]
+root          63  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-md_bitmap]
+root          64  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-edac-poller]
+root          65  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-devfreq_wq]
+root          66  0.0  0.0      0     0 ?        S    10:28   0:00 [watchdogd]
+root          67  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-quota_events_unbound]
+root          68  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/2:1H-kblockd]
+root          69  0.0  0.0      0     0 ?        S    10:28   0:00 [kswapd0]
+root          70  0.0  0.0      0     0 ?        S    10:28   0:00 [ecryptfs-kthread]
+root          71  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-kthrotld]
+root          72  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/24-pciehp]
+root          73  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/25-pciehp]
+root          74  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/26-pciehp]
+root          75  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/27-pciehp]
+root          76  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/28-pciehp]
+root          77  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/29-pciehp]
+root          78  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/30-pciehp]
+root          79  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/31-pciehp]
+root          80  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/32-pciehp]
+root          81  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/33-pciehp]
+root          82  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/34-pciehp]
+root          83  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/35-pciehp]
+root          84  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/36-pciehp]
+root          85  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/37-pciehp]
+root          86  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/38-pciehp]
+root          87  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/39-pciehp]
+root          88  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/40-pciehp]
+root          89  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/41-pciehp]
+root          90  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/42-pciehp]
+root          91  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/43-pciehp]
+root          92  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/44-pciehp]
+root          93  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/45-pciehp]
+root          94  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/46-pciehp]
+root          95  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/47-pciehp]
+root          96  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/48-pciehp]
+root          97  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/49-pciehp]
+root          98  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/50-pciehp]
+root          99  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/51-pciehp]
+root         100  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/52-pciehp]
+root         101  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/53-pciehp]
+root         102  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/54-pciehp]
+root         103  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/55-pciehp]
+root         104  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-acpi_thermal_pm]
+root         105  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_0]
+root         106  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_0]
+root         107  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_1]
+root         108  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_1]
+root         112  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-mld]
+root         113  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-ipv6_addrconf]
+root         114  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/0:1H-kblockd]
+root         115  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-kstrp]
+root         129  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-charger_manager]
+root         152  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/3:1H-kblockd]
+root         181  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/1:1H-kblockd]
+root         184  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-mpt_poll_0]
+root         185  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-mpt/0]
+root         196  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_2]
+root         197  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_2]
+root         199  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_3]
+root         200  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_3]
+root         201  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_4]
+root         202  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_4]
+root         203  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_5]
+root         204  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_5]
+root         205  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_6]
+root         206  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_6]
+root         207  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_7]
+root         208  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_7]
+root         209  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_8]
+root         210  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_8]
+root         211  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_9]
+root         212  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_9]
+root         213  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_10]
+root         214  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_10]
+root         215  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_11]
+root         216  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_11]
+root         217  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_12]
+root         218  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_12]
+root         219  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_13]
+root         220  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_13]
+root         221  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_14]
+root         222  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_14]
+root         223  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_15]
+root         224  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_15]
+root         225  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_16]
+root         226  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_16]
+root         227  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_17]
+root         228  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_17]
+root         229  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_18]
+root         230  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_18]
+root         231  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_19]
+root         232  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_19]
+root         233  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_20]
+root         234  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_20]
+root         235  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_21]
+root         236  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_21]
+root         237  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_22]
+root         238  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_22]
+root         239  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_23]
+root         240  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_23]
+root         241  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_24]
+root         242  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_24]
+root         243  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_25]
+root         244  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_25]
+root         245  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_26]
+root         246  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_26]
+root         247  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_27]
+root         248  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_27]
+root         249  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_28]
+root         250  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_28]
+root         251  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_29]
+root         252  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_29]
+root         253  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_30]
+root         254  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_30]
+root         255  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_31]
+root         256  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_31]
+root         257  0.0  0.0      0     0 ?        S    10:28   0:00 [scsi_eh_32]
+root         258  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-scsi_tmf_32]
+root         269  0.0  0.0      0     0 ?        I    10:28   0:00 [kworker/u512:16-events_unbound]
+root         273  0.0  0.0      0     0 ?        I    10:28   0:00 [kworker/u512:20-events_unbound]
+root         274  0.0  0.0      0     0 ?        I    10:28   0:00 [kworker/u512:21-loop3]
+root         276  0.0  0.0      0     0 ?        I    10:28   0:00 [kworker/u512:23-events_unbound]
+root         277  0.0  0.0      0     0 ?        I    10:28   0:00 [kworker/u512:24-events_unbound]
+root         278  0.0  0.0      0     0 ?        I    10:28   0:00 [kworker/u512:25-events_unbound]
+root         279  0.0  0.0      0     0 ?        I    10:28   0:00 [kworker/u512:26-events_unbound]
+root         280  0.0  0.0      0     0 ?        I    10:28   0:00 [kworker/u512:27-events_freezable_pwr_efficient]
+root         282  0.0  0.0      0     0 ?        I    10:28   0:00 [kworker/u512:29-flush-8:0]
+root         325  0.0  0.0      0     0 ?        S    10:28   0:00 [jbd2/sda2-8]
+root         326  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-ext4-rsv-conversion]
+root         340  0.0  0.0      0     0 ?        I    10:28   0:00 [kworker/2:2-cgroup_release]
+root         376  0.0  0.2  50872 18072 ?        S<s  10:28   0:00 /usr/lib/systemd/systemd-journald
+root         397  0.0  0.0      0     0 ?        I    10:28   0:00 [kworker/1:2-events]
+root         428  0.0  0.1  32688 10836 ?        Ss   10:28   0:00 /usr/lib/systemd/systemd-udevd
+root         524  0.0  0.0      0     0 ?        S    10:28   0:00 [psimon]
+root         647  0.0  0.0  11352  2244 ?        S<sl 10:28   0:00 /sbin/auditd
+root         749  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/57-vmw_vmci]
+root         750  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/58-vmw_vmci]
+root         751  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/59-vmw_vmci]
+root         754  0.0  0.0      0     0 ?        S    10:28   0:00 [irq/16-vmwgfx]
+root         755  0.0  0.0      0     0 ?        I<   10:28   0:00 [kworker/R-ttm]
+root        1057  0.0  0.0 322420  7880 ?        Ssl  10:28   0:00 /usr/libexec/power-profiles-daemon
+root        1069  0.4  0.5 1998188 44784 ?       Ssl  10:28   0:01 /snap/snapd/current/usr/lib/snapd/snapd
+root        1075  0.0  0.1 322296  8368 ?        Ssl  10:28   0:00 /usr/libexec/accounts-daemon
+root        1081  0.0  0.0  18100  2956 ?        Ss   10:28   0:00 /usr/sbin/cron -f -P
+root        1100  0.0  0.0 318544  7296 ?        Ssl  10:28   0:00 /usr/libexec/switcheroo-control
+root        1110  0.0  0.1  18160  9204 ?        Ss   10:28   0:00 /usr/lib/systemd/systemd-logind
+root        1114  0.0  0.1 469484 14852 ?        Ssl  10:28   0:00 /usr/libexec/udisks2/udisksd
+root        1131  0.0  0.2 345668 20304 ?        Ssl  10:28   0:00 /usr/sbin/NetworkManager --no-daemon
+root        1133  0.0  0.0  17392  6544 ?        Ss   10:28   0:00 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+root        1232  0.0  0.1 392104 12992 ?        Ssl  10:28   0:00 /usr/sbin/ModemManager
+root        1325  0.0  0.1  46656 12224 ?        Ss   10:28   0:00 /usr/sbin/cupsd -l
+root        1326  0.3  0.6 833788 48768 ?        Ssl  10:28   0:01 /usr/bin/python3 /usr/bin/fail2ban-server -xf start
+root        1334  0.0  0.2 120928 23536 ?        Ssl  10:28   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1339  0.0  0.1  12032  8368 ?        Ss   10:28   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root        1354  0.0  0.1 323816  9912 ?        Ssl  10:28   0:00 /usr/sbin/gdm3
+root        1384  0.0  0.0      0     0 ?        S    10:28   0:00 [psimon]
+root        1394  0.0  0.0      0     0 ?        I    10:28   0:00 [kworker/3:3]
+root        1655  0.0  0.1 325600  9608 ?        Ssl  10:28   0:00 /usr/libexec/upowerd
+root        1992  0.0  0.1 251600 11068 ?        Sl   10:28   0:00 gdm-session-worker [pam/gdm-password]
+root        2094  0.0  0.0   2712  2100 ?        Ss   10:29   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+root        2831  0.0  0.0      0     0 ?        I<   10:29   0:00 [kworker/u513:8-ttm]
+root        2837  0.0  0.0      0     0 ?        I<   10:29   0:00 [kworker/u513:14-ttm]
+root        3050  0.0  0.1  15188 10924 ?        Ss   10:29   0:00 sshd: mehdi [priv]
+root        3273  0.0  0.0      0     0 ?        I    10:34   0:00 [kworker/2:0-cgroup_free]
+root        3663  0.0  0.0  28412  7628 pts/0    S+   10:35   0:00 sudo ./LinuxAudit.sh
+root        3664  0.0  0.0  28412  2612 pts/1    Ss   10:35   0:00 sudo ./LinuxAudit.sh
+root        3665  0.0  0.0  19276  4372 pts/1    S+   10:35   0:00 bash ./LinuxAudit.sh
+root        3703  0.0  0.0  22552  4924 pts/1    R+   10:36   0:00 ps -U root -u root u
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] Active Internet Connections and Open Ports[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+Netid State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess                                   
+udp   UNCONN 0      0         127.0.0.54:53         0.0.0.0:*    users:(("systemd-resolve",pid=641,fd=16))
+udp   UNCONN 0      0      127.0.0.53%lo:53         0.0.0.0:*    users:(("systemd-resolve",pid=641,fd=14))
+udp   UNCONN 0      0            0.0.0.0:57636      0.0.0.0:*    users:(("avahi-daemon",pid=1030,fd=14))  
+udp   UNCONN 0      0            0.0.0.0:5353       0.0.0.0:*    users:(("avahi-daemon",pid=1030,fd=12))  
+udp   UNCONN 0      0               [::]:35492         [::]:*    users:(("avahi-daemon",pid=1030,fd=15))  
+udp   UNCONN 0      0               [::]:5353          [::]:*    users:(("avahi-daemon",pid=1030,fd=13))  
+tcp   LISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*    users:(("systemd-resolve",pid=641,fd=15))
+tcp   LISTEN 0      4096       127.0.0.1:631        0.0.0.0:*    users:(("cupsd",pid=1325,fd=7))          
+tcp   LISTEN 0      128          0.0.0.0:45678      0.0.0.0:*    users:(("sshd",pid=1339,fd=3))           
+tcp   LISTEN 0      4096      127.0.0.54:53         0.0.0.0:*    users:(("systemd-resolve",pid=641,fd=17))
+tcp   LISTEN 0      4096           [::1]:631           [::]:*    users:(("cupsd",pid=1325,fd=6))          
+tcp   LISTEN 0      128             [::]:45678         [::]:*    users:(("sshd",pid=1339,fd=4))           
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] Network Interfaces[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 00:0c:29:08:4d:ee brd ff:ff:ff:ff:ff:ff
+    altname enp2s1
+    inet 192.168.163.128/24 brd 192.168.163.255 scope global dynamic noprefixroute ens33
+       valid_lft 1371sec preferred_lft 1371sec
+    inet6 fe80::20c:29ff:fe08:4dee/64 scope link 
+       valid_lft forever preferred_lft forever
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] IPtable Information[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+Chain INPUT (policy DROP 1 packets, 635 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+ 3785  692K ufw-before-logging-input  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+ 3785  692K ufw-before-input  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+    1   635 ufw-after-input  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+    1   635 ufw-after-logging-input  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+    1   635 ufw-reject-input  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+    1   635 ufw-track-input  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain FORWARD (policy DROP 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 ufw-before-logging-forward  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+    0     0 ufw-before-forward  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+    0     0 ufw-after-forward  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+    0     0 ufw-after-logging-forward  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+    0     0 ufw-reject-forward  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+    0     0 ufw-track-forward  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain OUTPUT (policy ACCEPT 5 packets, 200 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+ 3977  546K ufw-before-logging-output  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+ 3977  546K ufw-before-output  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+   65  6369 ufw-after-output  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+   65  6369 ufw-after-logging-output  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+   65  6369 ufw-reject-output  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+   65  6369 ufw-track-output  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-after-forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-after-input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 ufw-skip-to-policy-input  17   --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpt:137
+    0     0 ufw-skip-to-policy-input  17   --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpt:138
+    0     0 ufw-skip-to-policy-input  6    --  *      *       0.0.0.0/0            0.0.0.0/0            tcp dpt:139
+    0     0 ufw-skip-to-policy-input  6    --  *      *       0.0.0.0/0            0.0.0.0/0            tcp dpt:445
+    0     0 ufw-skip-to-policy-input  17   --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpt:67
+    0     0 ufw-skip-to-policy-input  17   --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpt:68
+    0     0 ufw-skip-to-policy-input  0    --  *      *       0.0.0.0/0            0.0.0.0/0            ADDRTYPE match dst-type BROADCAST
+
+Chain ufw-after-logging-forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 LOG        0    --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 3/min burst 10 LOG flags 0 level 4 prefix "[UFW BLOCK] "
+
+Chain ufw-after-logging-input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    1   635 LOG        0    --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 3/min burst 10 LOG flags 0 level 4 prefix "[UFW BLOCK] "
+
+Chain ufw-after-logging-output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-after-output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-before-forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 ACCEPT     0    --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate RELATED,ESTABLISHED
+    0     0 ACCEPT     1    --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 3
+    0     0 ACCEPT     1    --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 11
+    0     0 ACCEPT     1    --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 12
+    0     0 ACCEPT     1    --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 8
+    0     0 ufw-user-forward  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-before-input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+  141 13111 ACCEPT     0    --  lo     *       0.0.0.0/0            0.0.0.0/0           
+ 3613  675K ACCEPT     0    --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate RELATED,ESTABLISHED
+    0     0 ufw-logging-deny  0    --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate INVALID
+    0     0 DROP       0    --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate INVALID
+    0     0 ACCEPT     1    --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 3
+    0     0 ACCEPT     1    --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 11
+    0     0 ACCEPT     1    --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 12
+    0     0 ACCEPT     1    --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 8
+    0     0 ACCEPT     17   --  *      *       0.0.0.0/0            0.0.0.0/0            udp spt:67 dpt:68
+   31  3916 ufw-not-local  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+   29  3229 ACCEPT     17   --  *      *       0.0.0.0/0            224.0.0.251          udp dpt:5353
+    0     0 ACCEPT     17   --  *      *       0.0.0.0/0            239.255.255.250      udp dpt:1900
+    2   687 ufw-user-input  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-before-logging-forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-before-logging-input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-before-logging-output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-before-output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+  143 13191 ACCEPT     0    --  *      lo      0.0.0.0/0            0.0.0.0/0           
+ 3769  526K ACCEPT     0    --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate RELATED,ESTABLISHED
+   65  6369 ufw-user-output  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-logging-allow (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 LOG        0    --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 3/min burst 10 LOG flags 0 level 4 prefix "[UFW ALLOW] "
+
+Chain ufw-logging-deny (2 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 RETURN     0    --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate INVALID limit: avg 3/min burst 10
+    0     0 LOG        0    --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 3/min burst 10 LOG flags 0 level 4 prefix "[UFW BLOCK] "
+
+Chain ufw-not-local (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    1    52 RETURN     0    --  *      *       0.0.0.0/0            0.0.0.0/0            ADDRTYPE match dst-type LOCAL
+   30  3864 RETURN     0    --  *      *       0.0.0.0/0            0.0.0.0/0            ADDRTYPE match dst-type MULTICAST
+    0     0 RETURN     0    --  *      *       0.0.0.0/0            0.0.0.0/0            ADDRTYPE match dst-type BROADCAST
+    0     0 ufw-logging-deny  0    --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 3/min burst 10
+    0     0 DROP       0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-reject-forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-reject-input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-reject-output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-skip-to-policy-forward (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-skip-to-policy-input (7 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-skip-to-policy-output (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 ACCEPT     0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-track-forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-track-input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-track-output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    6   360 ACCEPT     6    --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate NEW
+   54  5809 ACCEPT     17   --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate NEW
+
+Chain ufw-user-forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-user-input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    1    52 ACCEPT     6    --  *      *       0.0.0.0/0            0.0.0.0/0            tcp dpt:45678
+
+Chain ufw-user-limit (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 LOG        0    --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 3/min burst 5 LOG flags 0 level 4 prefix "[UFW LIMIT BLOCK] "
+    0     0 REJECT     0    --  *      *       0.0.0.0/0            0.0.0.0/0            reject-with icmp-port-unreachable
+
+Chain ufw-user-limit-accept (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 ACCEPT     0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain ufw-user-logging-forward (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-user-logging-input (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-user-logging-output (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain ufw-user-output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] Network Parameters[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+#
+# /etc/sysctl.conf - Configuration file for setting system variables
+# See /etc/sysctl.d/ for additional system variables.
+# See sysctl.conf (5) for information.
+#
+
+#kernel.domainname = example.com
+
+# Uncomment the following to stop low-level messages on console
+#kernel.printk = 3 4 1 3
+
+###################################################################
+# Functions previously found in netbase
+#
+
+# Uncomment the next two lines to enable Spoof protection (reverse-path filter)
+# Turn on Source Address Verification in all interfaces to
+# prevent some spoofing attacks
+#net.ipv4.conf.default.rp_filter=1
+#net.ipv4.conf.all.rp_filter=1
+
+# Uncomment the next line to enable TCP/IP SYN cookies
+# See http://lwn.net/Articles/277146/
+# Note: This may impact IPv6 TCP sessions too
+#net.ipv4.tcp_syncookies=1
+
+# Uncomment the next line to enable packet forwarding for IPv4
+#net.ipv4.ip_forward=1
+
+# Uncomment the next line to enable packet forwarding for IPv6
+#  Enabling this option disables Stateless Address Autoconfiguration
+#  based on Router Advertisements for this host
+#net.ipv6.conf.all.forwarding=1
+
+
+###################################################################
+# Additional settings - these settings can improve the network
+# security of the host and prevent against some network attacks
+# including spoofing attacks and man in the middle attacks through
+# redirection. Some network environments, however, require that these
+# settings are disabled so review and enable them as needed.
+#
+# Do not accept ICMP redirects (prevent MITM attacks)
+#net.ipv4.conf.all.accept_redirects = 0
+#net.ipv4.conf.default.accept_redirects = 0
+# _or_
+# Accept ICMP redirects only for gateways listed in our default
+# gateway list (enabled by default)
+# net.ipv4.conf.all.secure_redirects = 1
+#
+# Do not send ICMP redirects (we are not a router)
+#net.ipv4.conf.all.send_redirects = 0
+#
+# Log Martian Packets
+#net.ipv4.conf.all.log_martians = 1
+#
+
+###################################################################
+# Magic system request Key
+# 0=disable, 1=enable all, >1 bitmask of sysrq functions
+# See https://www.kernel.org/doc/html/latest/admin-guide/sysrq.html
+# for what other values do
+#kernel.sysrq=438
+
+net.ipv4.conf.all.rp_filter = 1
+net.ipv4.conf.default.rp_filter = 1
+net.ipv4.icmp_echo_ignore_broadcasts = 1
+net.ipv4.conf.all.accept_source_route = 0
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] IP Routing Table[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+default via 192.168.163.2 dev ens33 proto dhcp src 192.168.163.128 metric 100 
+192.168.163.0/24 dev ens33 proto kernel scope link src 192.168.163.128 metric 100 
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] ARP table[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+192.168.163.2 dev ens33 lladdr 00:50:56:e8:45:15 STALE 
+192.168.163.1 dev ens33 lladdr 00:50:56:c0:00:08 REACHABLE 
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] Running Services[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+  UNIT                          LOAD   ACTIVE SUB     DESCRIPTION
+  accounts-daemon.service       loaded active running Accounts Service
+  auditd.service                loaded active running Security Auditing Service
+  avahi-daemon.service          loaded active running Avahi mDNS/DNS-SD Stack
+  colord.service                loaded active running Manage, Install and Generate Color Profiles
+  cron.service                  loaded active running Regular background program processing daemon
+  cups-browsed.service          loaded active running Make remote CUPS printers available locally
+  cups.service                  loaded active running CUPS Scheduler
+  dbus.service                  loaded active running D-Bus System Message Bus
+  fail2ban.service              loaded active running Fail2Ban Service
+  gdm.service                   loaded active running GNOME Display Manager
+  gnome-remote-desktop.service  loaded active running GNOME Remote Desktop
+  kerneloops.service            loaded active running Tool to automatically collect and submit kernel crash signatures
+  ModemManager.service          loaded active running Modem Manager
+  NetworkManager.service        loaded active running Network Manager
+  polkit.service                loaded active running Authorization Manager
+  power-profiles-daemon.service loaded active running Power Profiles daemon
+  rsyslog.service               loaded active running System Logging Service
+  rtkit-daemon.service          loaded active running RealtimeKit Scheduling Policy Service
+  snapd.service                 loaded active running Snap Daemon
+  ssh.service                   loaded active running OpenBSD Secure Shell server
+  switcheroo-control.service    loaded active running Switcheroo Control Proxy service
+  systemd-journald.service      loaded active running Journal Service
+  systemd-logind.service        loaded active running User Login Management
+  systemd-oomd.service          loaded active running Userspace Out-Of-Memory (OOM) Killer
+  systemd-resolved.service      loaded active running Network Name Resolution
+  systemd-timesyncd.service     loaded active running Network Time Synchronization
+  systemd-udevd.service         loaded active running Rule-based Manager for Device Events and Files
+  udisks2.service               loaded active running Disk Manager
+  unattended-upgrades.service   loaded active running Unattended Upgrades Shutdown
+  upower.service                loaded active running Daemon for power management
+  user@1000.service             loaded active running User Manager for UID 1000
+  wpa_supplicant.service        loaded active running WPA supplicant
+
+Legend: LOAD   → Reflects whether the unit definition was properly loaded.
+        ACTIVE → The high-level unit activation state, i.e. generalization of SUB.
+        SUB    → The low-level unit activation state, values depend on unit type.
+
+32 loaded units listed.
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] Check Running Processes[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+    PID TTY          TIME CMD
+   2117 tty2     00:00:00 gnome-session-b
+   3663 pts/0    00:00:00 sudo
+   3665 pts/1    00:00:00 bash
+   3711 pts/1    00:00:00 ps
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] Check SSH Configuration[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+# This is the sshd server system-wide configuration file.  See
+# sshd_config(5) for more information.
+
+# This sshd was compiled with PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+
+# The strategy used for options in the default sshd_config shipped with
+# OpenSSH is to specify options with their default value where
+# possible, but leave them commented.  Uncommented options override the
+# default value.
+
+Include /etc/ssh/sshd_config.d/*.conf
+
+# When systemd socket activation is used (the default), the socket
+# configuration must be re-generated after changing Port, AddressFamily, or
+# ListenAddress.
+#
+# For changes to take effect, run:
+#
+#   systemctl daemon-reload
+#   systemctl restart ssh.socket
+#
+Port 45678
+#AddressFamily any
+#ListenAddress 0.0.0.0
+#ListenAddress ::
+
+#HostKey /etc/ssh/ssh_host_rsa_key
+#HostKey /etc/ssh/ssh_host_ecdsa_key
+#HostKey /etc/ssh/ssh_host_ed25519_key
+
+# Ciphers and keying
+#RekeyLimit default none
+
+# Logging
+#SyslogFacility AUTH
+LogLevel VERBOSE
+
+# Authentication:
+
+#LoginGraceTime 2m
+PermitRootLogin no
+#StrictModes yes
+MaxAuthTries 3
+MaxSessions 2
+
+#PubkeyAuthentication yes
+
+# Expect .ssh/authorized_keys2 to be disregarded by default in future.
+#AuthorizedKeysFile	.ssh/authorized_keys .ssh/authorized_keys2
+
+#AuthorizedPrincipalsFile none
+
+#AuthorizedKeysCommand none
+#AuthorizedKeysCommandUser nobody
+
+# For this to work you will also need host keys in /etc/ssh/ssh_known_hosts
+#HostbasedAuthentication no
+# Change to yes if you don't trust ~/.ssh/known_hosts for
+# HostbasedAuthentication
+#IgnoreUserKnownHosts no
+# Don't read the user's ~/.rhosts and ~/.shosts files
+#IgnoreRhosts yes
+
+# To disable tunneled clear text passwords, change to no here!
+PasswordAuthentication no
+#PermitEmptyPasswords no
+
+# Change to yes to enable challenge-response passwords (beware issues with
+# some PAM modules and threads)
+KbdInteractiveAuthentication no
+
+# Kerberos options
+#KerberosAuthentication no
+#KerberosOrLocalPasswd yes
+#KerberosTicketCleanup yes
+#KerberosGetAFSToken no
+
+# GSSAPI options
+#GSSAPIAuthentication no
+#GSSAPICleanupCredentials yes
+#GSSAPIStrictAcceptorCheck yes
+#GSSAPIKeyExchange no
+
+# Set this to 'yes' to enable PAM authentication, account processing,
+# and session processing. If this is enabled, PAM authentication will
+# be allowed through the KbdInteractiveAuthentication and
+# PasswordAuthentication.  Depending on your PAM configuration,
+# PAM authentication via KbdInteractiveAuthentication may bypass
+# the setting of "PermitRootLogin prohibit-password".
+# If you just want the PAM account and session checks to run without
+# PAM authentication, then enable this but set PasswordAuthentication
+# and KbdInteractiveAuthentication to 'no'.
+UsePAM yes
+
+#AllowAgentForwarding yes
+AllowTcpForwarding no
+#GatewayPorts no
+X11Forwarding no
+#X11DisplayOffset 10
+#X11UseLocalhost yes
+#PermitTTY yes
+PrintMotd no
+#PrintLastLog yes
+#TCPKeepAlive yes
+#PermitUserEnvironment no
+#Compression delayed
+#ClientAliveInterval 0
+#ClientAliveCountMax 3
+#UseDNS no
+#PidFile /run/sshd.pid
+#MaxStartups 10:30:100
+#PermitTunnel no
+#ChrootDirectory none
+#VersionAddendum none
+
+# no default banner path
+#Banner none
+
+# Allow client to pass locale environment variables
+AcceptEnv LANG LC_*
+
+# override default of no subsystems
+Subsystem	sftp	/usr/lib/openssh/sftp-server
+
+# Example of overriding settings on a per-user basis
+#Match User anoncvs
+#	X11Forwarding no
+	AllowTcpForwarding no
+#	PermitTTY no
+#	ForceCommand cvs server
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] Password Policies[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+#
+# /etc/pam.d/common-password - password-related modules common to all services
+#
+# This file is included from other service-specific PAM config files,
+# and should contain a list of modules that define the services to be
+# used to change user passwords.  The default is pam_unix.
+
+# Explanation of pam_unix options:
+# The "yescrypt" option enables
+#hashed passwords using the yescrypt algorithm, introduced in Debian
+#11.  Without this option, the default is Unix crypt.  Prior releases
+#used the option "sha512"; if a shadow password hash will be shared
+#between Debian 11 and older releases replace "yescrypt" with "sha512"
+#for compatibility .  The "obscure" option replaces the old
+#`OBSCURE_CHECKS_ENAB' option in login.defs.  See the pam_unix manpage
+#for other options.
+
+# As of pam 1.0.1-6, this file is managed by pam-auth-update by default.
+# To take advantage of this, it is recommended that you configure any
+# local modules either before or after the default block, and use
+# pam-auth-update to manage selection of other modules.  See
+# pam-auth-update(8) for details.
+
+# here are the per-package modules (the "Primary" block)
+password requisite pam_pwquality.so retry=3 minlen=12 difok=3 ucredit=-1 lcredit=-1 dcredit=-1 ocredit=-1
+
+password	[success=2 default=ignore]	pam_unix.so obscure use_authtok try_first_pass yescrypt
+password	sufficient			pam_sss.so use_authtok
+# here's the fallback if no module succeeds
+password	requisite			pam_deny.so
+# prime the stack with a positive return value if there isn't one already;
+# this avoids us returning an error just because nothing sets a success code
+# since the modules above will each just jump around
+password	required			pam_permit.so
+# and here are more per-package modules (the "Additional" block)
+password	optional	pam_gnome_keyring.so 
+# end of pam-auth-update config
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] Check for Null Passwords[0m
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] Failed login attempts[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+grep: /var/log/auth.log : fichiers binaires correspondent
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] UID 0 users other than root[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] Password aging[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : 0
+Nombre maximal de jours entre deux changements du mot de passe		 : 99999
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : 7
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : 0
+Nombre maximal de jours entre deux changements du mot de passe		 : 99999
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : 7
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : 0
+Nombre maximal de jours entre deux changements du mot de passe		 : 99999
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : 7
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : 0
+Nombre maximal de jours entre deux changements du mot de passe		 : 99999
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : 7
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : 0
+Nombre maximal de jours entre deux changements du mot de passe		 : 99999
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : 7
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : 0
+Nombre maximal de jours entre deux changements du mot de passe		 : 99999
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : 7
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : 0
+Nombre maximal de jours entre deux changements du mot de passe		 : 99999
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : 7
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : 0
+Nombre maximal de jours entre deux changements du mot de passe		 : 99999
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : 7
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : 0
+Nombre maximal de jours entre deux changements du mot de passe		 : 99999
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : 7
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : 0
+Nombre maximal de jours entre deux changements du mot de passe		 : 99999
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : 7
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : 0
+Nombre maximal de jours entre deux changements du mot de passe		 : 99999
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : 7
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : 0
+Nombre maximal de jours entre deux changements du mot de passe		 : 99999
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : 7
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : 0
+Nombre maximal de jours entre deux changements du mot de passe		 : 99999
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : 7
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : 0
+Nombre maximal de jours entre deux changements du mot de passe		 : 99999
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : 7
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : 0
+Nombre maximal de jours entre deux changements du mot de passe		 : 99999
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : 7
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : 0
+Nombre maximal de jours entre deux changements du mot de passe		 : 99999
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : 7
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : 0
+Nombre maximal de jours entre deux changements du mot de passe		 : 99999
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : 7
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : 0
+Nombre maximal de jours entre deux changements du mot de passe		 : 99999
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : 7
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : févr. 10, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+Dernière modification du mot de passe					 : avril 14, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : 0
+Nombre maximal de jours entre deux changements du mot de passe		 : 99999
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : 7
+Dernière modification du mot de passe					 : avril 14, 2026
+Le mot de passe expire					 : jamais
+Mot de passe inactif					 : jamais
+Le compte expire 						 : jamais
+Nombre minimal de jours entre deux changements de mot de passe 		 : -1
+Nombre maximal de jours entre deux changements du mot de passe		 : -1
+Nombre de jours d'avertissements avant que le mot de passe n'expire	 : -1
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] World writable files[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] SUID/SGID binaries[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+/usr/libexec/camel-lock-helper-1.2
+/usr/sbin/pam_extrausers_chkpwd
+/usr/sbin/pppd
+/usr/sbin/unix_chkpwd
+/usr/bin/expiry
+/usr/bin/crontab
+/usr/bin/mount
+/usr/bin/pkexec
+/usr/bin/ssh-agent
+/usr/bin/passwd
+/usr/bin/chfn
+/usr/bin/gpasswd
+/usr/bin/sudo
+/usr/bin/newgrp
+/usr/bin/chage
+/usr/bin/su
+/usr/bin/umount
+/usr/bin/fusermount3
+/usr/bin/chsh
+/usr/lib/polkit-1/polkit-agent-helper-1
+/usr/lib/xorg/Xorg.wrap
+/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/usr/lib/openssh/ssh-keysign
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m[+] Sysctl security params[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+kernel.randomize_va_space = 2
+
+net.ipv4.conf.all.accept_redirects = 0
+
+net.ipv4.conf.all.rp_filter = 1
+
+
+[0;33m[+] Dangerous dotfiles[0m
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
+
+[0;33m ++++++++++++++++++++++++++ [0m
+
